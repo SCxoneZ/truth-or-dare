@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body{
+  font-family: Poppins, arial, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  width: 300px;
+  height: 200px;
+  background: #ECEDFF;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.output{
+  width: 250px;
+  height: 75px;
+  border-radius: 25px;
+  background: #A1A1A1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.container button{
+  margin-bottom: 10px;
+  width: 100px;
+  height: 25px;
+  border: none;
+  border-radius: 10px;
+  transition: .33s;
+}
+
+.container button:hover{
+  border-radius: 25px;
+  opacity: 50%;
+}
+
+.container button.btn-truth{
+  background: #8D96FF;
+}
+
+.container button.btn-dare{
+  background: #6FC6AD;
+}
